@@ -10,7 +10,7 @@ $(document).ready(function() {
             message: $('#message').val()
         };
         $.ajax({
-            url: "mail.php",
+            url: "../../mail.php",
             type: 'POST',
             data: data,
             success: function(){
