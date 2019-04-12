@@ -13,7 +13,10 @@ $(document).ready(function() {
             url: "mail.php",
             type: 'POST',
             data: data,
-            success: function(data) {
+            success: function(){
+                $('.success').fadeIn(1000);
+            }
+            /*success: function(data) {
                 $('#js_alert_success').css({'display' : 'block'});
                 setTimeout(function(){
                     $('#js_alert_success').css({'display' : 'none'});
@@ -22,8 +25,8 @@ $(document).ready(function() {
                     $('#firstname').val("");
                     $('#message').val("")
                 }, 3000);
-            },
-            error: function(data) {
+            },*/
+            /*error: function(data) {
                 $('#js_alert_danger').css({'display' : 'block'});
                 setTimeout(function(){
                     $('#js_alert_danger').css({'display' : 'none'});
@@ -32,7 +35,7 @@ $(document).ready(function() {
                     $('#firstname').val("");
                     $('#message').val("")
                 }, 3000);
-            }
+            }*/
         });
     });
 
