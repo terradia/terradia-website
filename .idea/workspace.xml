@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16a7e96e-7c38-4b5e-a47b-2c5e2a276439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
           <entry key="html" value="1652" />
           <entry key="js" value="66" />
           <entry key="php" value="546" />
-          <entry key="txt" value="64" />
+          <entry key="txt" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -53,23 +53,23 @@
           <entry key="HTML" value="1652" />
           <entry key="JavaScript" value="66" />
           <entry key="PHP" value="546" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="PLAIN_TEXT" value="104" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="154" column="96" selection-start-line="154" selection-start-column="96" selection-end-line="154" selection-end-column="96" />
+            <state relative-caret-position="524">
+              <caret line="154" column="61" selection-start-line="154" selection-start-column="61" selection-end-line="154" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -199,6 +199,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/js" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -223,7 +229,7 @@
       <updated>1554992250951</updated>
       <workItem from="1554992254578" duration="5718000" />
       <workItem from="1555008019175" duration="956000" />
-      <workItem from="1555058779830" duration="1448000" />
+      <workItem from="1555058779830" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="Test for Netlify">
       <created>1555060508828</created>
@@ -260,11 +266,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555061304115</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changing version of jQuery">
+      <created>1555061497638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555061497638</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Move mail.php">
+      <created>1555062255303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555062255303</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8122000" />
+    <option name="totallyTimeSpent" value="8843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -309,13 +329,22 @@
     <MESSAGE value="Test for Netlify" />
     <MESSAGE value="Send Email id" />
     <MESSAGE value="Trying to work with email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to work with email" />
+    <MESSAGE value="Changing version of jQuery" />
+    <MESSAGE value="Move mail.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move mail.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="154" column="61" selection-start-line="154" selection-start-column="61" selection-end-line="154" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -330,13 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="154" column="96" selection-start-line="154" selection-start-column="96" selection-end-line="154" selection-end-column="96" />
         </state>
       </provider>
     </entry>
