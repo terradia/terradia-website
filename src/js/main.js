@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    $('#sending_email').click(function(e){
+    $('#send_email').click(function(e){
         e.preventDefault();
         var data = {
             email: $('#email').val(),
