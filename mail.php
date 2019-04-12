@@ -17,6 +17,6 @@ if ($_POST){
         $response['status'] = 'Erreur';
         $response['msg'] = 'Une erreur est survenue';
     }
-    echo json_encode($response);
+    echo $response;
 }
 ?>
