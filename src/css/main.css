@@ -16,7 +16,7 @@ html, body {
 
 .heading-site {
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family: 'Merienda', cursive;
     font-size: 2em;
 }
 
@@ -96,11 +96,13 @@ BANNER
     color: #FFFFFF;
     font-family: 'Merienda', cursive;
     margin-top: 0.5em;
+    font-size: 1.6em;
 }
 
 /*
 ABOUT
  */
+
 
 .about {
     margin-top: 1.5em;
@@ -140,18 +142,9 @@ FOOTER
     background-color: #FFFFFF;
 }
 
-
-.footer .footer-contact-form .button {
-    color: #FFFFFF;
-    background: linear-gradient(#7fbc74, #5ac4b5);
-    text-align: center;
-    margin-left: 47%;
-    margin-top: 2rem;
-}
-
 .footer .footer-informations {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .footer .footer-informations ul {
@@ -176,11 +169,9 @@ FOOTER
 .footer .footer-informations .icon:before {
     margin-top: 10px;
     text-align: center;
-
     background: -webkit-linear-gradient(#7fbc74, #5ac4b5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     font-size: 35px;
 }
 
@@ -189,8 +180,10 @@ FOOTER
     margin-left: 25px;
 }
 
+
 .footer .footer-contact-form {
     margin-top: 2rem;
+    background-color: #FFFFFF;
 }
 
 .footer .footer-contact-form .field {
@@ -198,11 +191,38 @@ FOOTER
     margin-left: 25%;
 }
 
+.footer .footer-contact-form .button {
+    color: #FFFFFF;
+    background: linear-gradient(to right,#7fbc74, #5ac4b5);
+    text-align: center;
+    border-radius: 1.2rem;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 3rem;
+    margin-left: 25%;
+    margin-top: 0.5rem;
+}
+
+
+.footer .footer-contact-form .button:hover {
+    color: #FFFFFF;
+    background: linear-gradient(to left,#7fbc74, #5ac4b5);
+    text-align: center;
+    border-radius: 1.2rem;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 3rem;
+    margin-left: 25%;
+    margin-top: 0.5rem;
+}
+
 .footer .footer-contact-form .textarea {
     background: #f0f0f5;
     border: none;
     outline: none;
-    border-radius: 1rem;
+    border-radius: 1.2rem;
     padding: 1.5rem;
     width: 50%;
     margin-top: 1em;
@@ -214,7 +234,7 @@ FOOTER
     background: #f0f0f5;
     border: none;
     outline: none;
-    border-radius: 1rem;
+    border-radius: 1.2rem;
     padding: 1.5rem;
     width: 50%;
     margin-top: 1em;
@@ -223,6 +243,3 @@ FOOTER
     margin-right: 25%;
     box-shadow: none;
 }
-
-
-
