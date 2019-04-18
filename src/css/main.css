@@ -25,7 +25,7 @@ html, body {
     margin-right: 0;
     height: 70px;
     line-height: 70px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.45);
     position: fixed;
     top: 0;
     z-index: 999;
@@ -89,6 +89,7 @@ BANNER
 .banner .banner-content h1,
 .banner .banner-content h2 {
     color: #FFFFFF;
+    font-family: 'Lora', serif;
 }
 
 /*
@@ -100,11 +101,16 @@ ABOUT
     height: 100%;
 }
 
+.about .about-single-element .icon:before {
+    background: -webkit-linear-gradient(#7fbc74, #5ac4b5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about .about-single-element .icon {
     font-size: 50px;
     text-align: center;
     margin-top: 30px;
-    color: #7fbc74;
 }
 
 .about .about-single-element {
@@ -113,7 +119,10 @@ ABOUT
 
 .about .about-single-element p {
     text-align: center;
+    font-family: 'Lora', serif;
     margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /*
@@ -122,6 +131,12 @@ FOOTER
 
 .footer {
     height: 100%;
+    background-color: #FFFFFF;
+}
+
+.footer .footer-contact-form .button {
+    color: #FFFFFF;
+    background: linear-gradient(#7fbc74, #5ac4b5);
 }
 
 .footer .footer-informations {
@@ -150,10 +165,20 @@ FOOTER
     text-align: center;
 }
 
-.footer .footer-informations .icon {
+.footer .footer-informations .icon:before {
     margin-top: 20px;
     text-align: center;
+
+    background: -webkit-linear-gradient(#7fbc74, #5ac4b5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     font-size: 35px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
+
+.footer .footer-informations .icon {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+

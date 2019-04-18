@@ -26,13 +26,13 @@
     <body>
 
         <!-- HEADER -->
-        <div class="block">
+        <div class="block" id="header">
             <header class="header">
                 <img src="src/img/Titreblanc.png" class="header-logo">
                 <nav class="header-menu">
-                    <a href="#">Accueil</a>
-                    <a href="#">À propos</a>
-                    <a href="#">Contact</a>
+                    <a href="#header">Accueil</a>
+                    <a href="#about">À propos</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </header>
         </div>
@@ -50,26 +50,26 @@
         <!-- BANNER -->
 
         <!-- A PROPOS -->
-            <div class="about">
+            <div class="about" id="about">
                 <div class="columns">
                     <!-- COL1 -->
                     <div class="column about-single-element">
                         <i class="fas fa-search icon"></i>
-                        <p>Grâce à Terradia, vous pouvez découvrir des producteurs et leurs produits proches de chez vous </p>
+                        <p>Grâce à Terradia, vous pouvez découvrir des producteurs et leurs produits proches de chez vous. Plus d'excuses, tous les produits locaux sont à quelques clics de chez vous</p>
                     </div>
                     <!-- COL1 -->
 
                     <!-- COL2 -->
                     <div class="column about-single-element">
                         <i class="fas fa-shopping-basket icon"></i>
-                        <p>Terradia vous permet de commander des produits locaux chez le(s) producteur(s) de votre choix</p>
+                        <p>Terradia vous permet de commander des produits locaux chez le(s) producteur(s) de votre choix. Désormais, vous personnalisez votre panier totalement, comme vous en avez envie</p>
                     </div>
                     <!-- COL2 -->
 
                     <!-- COL3 -->
                     <div class="column about-single-element">
                         <i class="fas fa-bicycle icon"></i>
-                        <p>Faites-vous livrer votre commande par un de nos livreurs à vélo, sur votre lieu de travail ou à domicile</p>
+                        <p>Faites-vous livrer votre commande par un de nos livreurs à vélo, sur votre lieu de travail ou à domicile. Plus besoin de se déplacer pour que les produits locaux arrivent à vous</p>
                     </div>
                     <!-- COL3 -->
                 </div>
@@ -78,16 +78,15 @@
         <!-- A PROPOS -->
         <!-- TODO: SUPPRIMER BLOCK CI-DESSOUS -->
         <!-- CONTACT -->
-        <div class="block">
             <footer class="footer">
                 <h2 class="heading-site">Contactez-nous</h2>
-                    <div class="footer-contact-form">
+                    <div class="footer-contact-form" id="contact">
                         <form data-netlify="true" action="/">
                             <!-- NOM -->
                             <div class="field">
                                 <label class="label">Nom</label>
                                 <div class="control">
-                                    <input id="name" class="input" type="text" placeholder="e.g Alex Smith" name="name">
+                                    <input id="name" class="input" type="text" placeholder="Dupont" name="name">
                                 </div>
                             </div>
                             <!-- NOM -->
@@ -97,7 +96,7 @@
                             <div class="field">
                                 <label class="label">Prénom</label>
                                 <div class="control">
-                                    <input id="firstname" class="input" type="text" placeholder="e.g Alex Smith" name="firstname">
+                                    <input id="firstname" class="input" type="text" placeholder="Marie" name="firstname">
                                 </div>
                             </div>
                             <!-- PRENOM -->
@@ -107,7 +106,7 @@
                             <div class="field">
                                 <label class="label">Email</label>
                                 <div class="control">
-                                    <input id="email" class="input" type="email" placeholder="e.g Alex Smith" name="email">
+                                    <input id="email" class="input" type="email" placeholder="marie.dupont@mail.fr" name="email">
                                 </div>
                             </div>
                             <!-- EMAIL -->
@@ -117,7 +116,7 @@
                             <div class="field">
                                 <label class="label">Message</label>
                                 <div class="control">
-                                    <textarea id="message" class="textarea" placeholder="Explain how we can help you" name="message"></textarea>
+                                    <textarea id="message" class="textarea" placeholder="Votre message..." name="message"></textarea>
                                 </div>
                             </div>
                             <!-- QUESTION -->
@@ -145,7 +144,6 @@
                         <a href="mailto:contact@terradia.eu">contact@terradia.eu</a>
                     </div>
             </footer>
-        </div>
         <!-- CONTACT -->
 
 
