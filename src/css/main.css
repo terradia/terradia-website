@@ -180,6 +180,10 @@ FOOTER
     margin-left: 25px;
 }
 
+.footer .footer-informations .icon:hover {
+    color: #FFFFFF;
+}
+
 
 .footer .footer-contact-form {
     margin-top: 2rem;
@@ -207,7 +211,7 @@ FOOTER
 
 .footer .footer-contact-form .button:hover {
     color: #FFFFFF;
-    background: linear-gradient(to left,#7fbc74, #5ac4b5);
+    background: linear-gradient(to right, rgba(127, 188, 116, 0.7), rgba(90, 196, 181, 0.7));
     text-align: center;
     border-radius: 1.2rem;
     border: none;
