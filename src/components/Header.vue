@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <img src='../assets/images/logo-green.svg' class="logo">
-        <button class="btn">Je m'inscris dès maintenant</button>
+        <button class="btn font-st">Je m'inscris dès maintenant</button>
     </div>
 </template>
 
@@ -12,6 +12,11 @@
 </script>
 
 <style scoped>
+
+    .font-st {
+        font-family: Montserrat;
+    }
+
     .header {
         padding: 1.5em;
         flex-direction: column;

@@ -1,18 +1,20 @@
 <template>
-  <v-app>
+  <v-app style="background-color: white;">
     <Header/>
-    <v-content>
-    </v-content>
+    <MainContent/>
   </v-app>
 </template>
 
 <script>
-  import Header from "./components/Header";
-
+  import Header from './components/Header';
+  import MainContent from './components/MainContent';
+  //import InfosText from './components/InfosText'
 export default {
   name: 'App',
 
   components: {
+    //InfosText,
+    MainContent,
     Header,
   },
 
@@ -23,5 +25,4 @@ export default {
 </script>
 
 <style>
-
 </style>
