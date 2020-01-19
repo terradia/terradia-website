@@ -1,5 +1,8 @@
 <template>
-    <div class="background-img">
+    <div class="wrapper">
+        <Tractor/>
+    </div>
+    <!--<div class="background-img">
         <p class="pos-abs ma-07 f-size45 green-terradia font-st">L'application qui facilite<br>l'accès aux
             produits<br>locaux.</p>
         <div class="stores-container">
@@ -14,93 +17,27 @@
         </div>
         <p class="pos-abs r0 f-size45 mat-bot-sentence mar07 color-white font-st">Terradia vous permet de consommer
             local<br> sans le moindre effort.</p>
-    </div>
+    </div>-->
 </template>
 
 <script>
+    import Tractor from './Tractor'
+
     export default {
         name: "MainContent",
+
+        components: {
+            Tractor,
+        }
     }
 </script>
 
 <style scoped>
 
-    .font-st {
-        font-family: Montserrat;
-    }
-
-    .mar07 {
-        margin-right: 0.7em;
-    }
-
-    .mat-bot-sentence {
-        margin-top: 14em;
-    }
-
-    .mat-tractor {
-        margin-top: 12em;
-    }
-
-    .stores-container {
-        margin-top: 15.5em;
-        margin-left: 1em;
-        position: absolute
-    }
-
-    .stores {
-        padding: 1em;
-    }
-
-    .pos-rel {
+    .wrapper {
         position: relative;
+        height: auto;
+        min-height: 100% !important;
     }
 
-    .color-white {
-        color: white;
-    }
-
-    .green-terradia {
-        color: #5CC04A;
-    }
-
-    .grey-terradia {
-        color: #BBBBBB;
-    }
-
-    .f-size24 {
-        font-size: 24px;
-    }
-
-    .f-size45 {
-        font-size: 45px;
-    }
-
-    .o-hide {
-        overflow: hidden;
-    }
-
-    .ma-15 {
-        margin-top: 15em;
-    }
-
-    .mal-07 {
-        margin-left: 1.5em;
-    }
-
-    .ma-07 {
-        margin-left: 0.7em;
-        margin-top: 0.7em;
-    }
-
-    .r0 {
-        right: 0;
-    }
-
-    .pos-abs {
-        position: absolute;
-    }
-
-    .tractor {
-        width: 100%;
-    }
 </style>

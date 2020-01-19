@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <img src='../assets/images/logo-green.svg' class="logo">
+        <img src='../assets/images/logo-green-terradia.svg' class="logo">
         <button class="btn font-st">Je m'inscris dès maintenant</button>
     </div>
 </template>
