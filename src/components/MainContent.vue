@@ -6,7 +6,7 @@
 
 <script>
     import Tractor from './Tractor'
-    //import InfosText from './InfosText'
+    // import InfosText from './InfosText'
     export default {
         name: "MainContent",
 
@@ -17,9 +17,5 @@
 </script>
 
 <style scoped>
-
-    .wrapper {
-        min-height: 100%;
-    }
 
 </style>
