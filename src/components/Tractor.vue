@@ -1,17 +1,16 @@
 <template>
-    <div class="wrapper" style="align-content: space-between;">
-        <v-img :src="require('../assets/images/tractor-terradia.svg')" class="tractor"/>
+    <div class="flex-box">
         <p class="f-size45 font-st green-terradia ml07">L'application qui facilite<br>l'accès aux produits<br>locaux.
         </p>
-        <img src="../assets/images/appstore.svg" class="stores">
-        <img src="../assets/images/playstore.svg" class="stores">
+        <div class="flex-stores">
+            <img src="../assets/images/appstore.svg">
+            <img src="../assets/images/playstore.svg">
+        </div>
         <p class="ml1 f-size24 grey-terradia font-st mt1">Parce que nous ne sommes jamais assez<br>proche de notre
             terroire.</p>
         <img src="../assets/images/iphone-app.svg" class="iphone">
-
-        <div class="backg">
-            <p class="slog-bas font-st f-size24 color-white">Terradia vous permet de consommer local sans le<br>moindre
-                effort.</p>
+        <div class="slogan-bas">
+        <p class="font-st f-size45 color-white">Terradia vous permet de<br>consommer local sans le<br>moindre effort.</p>
         </div>
     </div>
 </template>
@@ -24,30 +23,44 @@
 
 <style scoped>
 
-    .wrapper {
-
+    @media (max-width: 1200px)
+    {
+        .tractor
+        {
+            display: none;
+        }
     }
 
-    .slog-bas {
-        right: 0;
-        position: absolute;
-        margin-top: 7em;
-        z-index: 9999;
-        margin-right: 2em;
-        bottom: 1em;
+    .slogan-bas {
+        display: flex;
+        margin-right: 5em;
+        justify-content: flex-end;
+        margin-top: 18em;
+        text-align: right;
     }
 
     .iphone {
-        right: 0;
-        margin-top: -26em;
-        z-index: 1000;
-        margin-right: 3em;
-        float: right;
         position: absolute;
+        margin-top: 6em;
+        margin-right: 12em;
+        right: 0;
+        float: right;
+        order: 2;
     }
 
-    .stores {
+    .flex-stores {
+        order: 0;
         margin-left: 2em;
+        padding-top: 2em;
+    }
+
+    .flex-box {
+        background: url("../assets/images/background-tractor-terradia.svg");
+        background-size: cover;
+        width: 100%;
+        position: absolute;
+        flex-direction: column;
+        display: flex;
     }
 
     .mt1 {
@@ -60,34 +73,6 @@
 
     .ml07 {
         margin-left: 0.7em;
-    }
-
-    .tractor {
-        position: absolute;
-        height: 250px;
-        width: 200px;
-        margin-left: 60%;
-        margin-top: 7.7%;
-        z-index: 1;
-    }
-
-    .backg {
-        /*background-color: #5CC04A;*/
-        /*position: absolute;*/
-        /*width: 100%;*/
-        /*height: 80%;*/
-        /*clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0% 50%);*/
-        /*background: linear-gradient(to left, #2BA54C, #5CC04A, #8FDD3D 35%);*/
-        position: absolute;
-        width: 100%;
-        z-index: 0;
-        text-align: right;
-        height: 80%;
-        background: url("../assets/images/background-terradia.svg");
-        background-size: cover;
-        bottom: 0;
-        left: 0;
-        right: 0;
     }
 
     .font-st {

@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper-infos">
         <p class="title-font">{{title}}</p>
         <div class="flex-cont">
             <div v-if="title == 'Découvrez'">
@@ -48,9 +48,9 @@
         width: 100%;
     }
 
-    .wrapper {
-        margin-top: 1em;
+    .wrapper-infos {
         margin-left: 2em;
+        margin-right: 3em;
     }
 
     .flex-cont {

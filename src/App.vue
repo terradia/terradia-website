@@ -6,10 +6,15 @@
             title="Découvrez"
             text="Autour de vous, peut être dans la rue d’à côté, il y a un artisant qui fabrique la solution à vos problèmes. Terradia, vous aide à trouver les producteurs locaux autour d’on vous n’auriez jamais imaginé l’existance..."
     />
+    <v-divider
+            class="mx-12 mt-2"
+    />
     <InfosText
             title="Commandez"
-            text="Grâce à Terradia, commandez vos produits locaux préférés, ou même des produits que vous ne connaissez pas encore a tout moment.
-Avec la livraison le jour même ou en J+1, profitez de vos achats instantanément..."
+            text="Grâce à Terradia, commandez vos produits locaux préférés, ou même des produits que vous ne connaissez pas encore a tout moment. Avec la livraison le jour même ou en J+1, profitez de vos achats instantanément..."
+    />
+    <v-divider
+            class="mx-12 mt-2"
     />
     <InfosText
             title="Profitez"
@@ -26,6 +31,7 @@ export default {
   name: 'App',
 
   components: {
+    // Footer,
     InfosText,
     MainContent,
     Header,
