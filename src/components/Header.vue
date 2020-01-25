@@ -29,6 +29,11 @@
         width: 270px;
     }
 
+    .btn:hover {
+        background-color: #5CC04A;
+        color: #FFFFFF;
+    }
+
     .btn {
         padding: 0.5em 3em;
         border: 1px solid #5CC04A;
