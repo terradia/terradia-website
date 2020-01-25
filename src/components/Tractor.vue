@@ -1,6 +1,8 @@
 <template>
     <div class="flex-box">
 <!--        <img src="../assets/images/triangle.svg" class="triangle-background">-->
+        <div class="triangle-background">
+            <Particles style="position: absolute; width: 100%; z-index: 0"/>
         <div class="flex-element-1">
             <p class="f-size45 font-st green-terradia ml07">L'application qui facilite<br>l'accès aux produits<br>locaux.
             </p>
@@ -17,55 +19,78 @@
 <!--                <p class="font-st f-size45 color-white">Terradia vous permet de<br>consommer local sans le<br>moindre effort.</p>-->
 <!--            </div>-->
         </div>
-
+        </div>
+        <div class="rectangle">
+            <p class="font-st f-size45 color-white" style="text-align: right">Terradia vous permet de<br>consommer local sans le<br>moindre effort.</p>
+        </div>
     </div>
 </template>
 
 <script>
+    import Particles from './Particles'
+
     export default {
-        name: "Tractor"
+        name: "Tractor",
+
+        components: {
+            Particles
+        }
     }
 </script>
 
 <style scoped>
 
+    .rectangle {
+        align-items: flex-end;
+        padding-right: 2em;
+        justify-content: right;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        /*border: 5px pink solid;*/
+        background: url("../assets/images/rectangle-background-terradia.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        z-index: 1;
+    }
+
     .triangle-background {
-        left: 0;
-        z-index: 0;
-        position: absolute;
-        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background: url("../assets/images/triangle.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom right;
     }
 
     .flex-element-1 {
         display: flex;
         width: 50%;
         flex-direction: column;
-        border: 1px red solid;
-        z-index: inherit;
+        /*border: 1px red solid;*/
+        z-index: 1;
     }
 
     .flex-element-2 {
         display: flex;
         width: 50%;
-        border: 1px blue solid;
+        /*border: 1px blue solid;*/
         align-items: center;
         justify-content: center;
-        z-index: inherit;
+        z-index: 1;
     }
 
     .flex-box {
-        z-index: 10000;
         width: 100%;
         flex-direction: row;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        border: 2px black solid;
+        /*border: 2px black solid;*/
         overflow: hidden;
-        background: url("../assets/images/triangle.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom right;
+
     }
 
     .iphone {
