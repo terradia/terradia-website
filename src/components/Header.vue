@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <img src='../assets/images/logo-green-terradia.svg' class="logo">
+        <img src='../assets/images/logo-green-terradia.svg' class="logo" data-aos="slide-left" data-aos-duration="2000">
         <button class="btn font-st">Je m'inscris dès maintenant</button>
     </div>
 </template>
@@ -32,6 +32,7 @@
     .btn:hover {
         background-color: #5CC04A;
         color: #FFFFFF;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
     .btn {

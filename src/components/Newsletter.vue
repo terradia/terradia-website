@@ -1,5 +1,5 @@
 <template>
-    <div class="newsletter">
+    <div class="newsletter" data-aos="slide-right" data-aos-duration="2000">
             <img src="../assets/images/newsletter-terradia.svg" class="img">
         <p class="text-font">Envie d'être tenu au courant des dernières nouveautés?</p>
         <div class="text-btn">
@@ -37,6 +37,8 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         padding: 1em;
+        font-family: Montserrat;
+        font-weight: normal;
         background-color: #CBCBCB;
         border-radius: 8px;
         width: 100%;
@@ -51,6 +53,7 @@
     .btn:hover {
         background-color: #FFFFFF;
         color: rgba(92,192,72, 1);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
     .btn {
@@ -58,6 +61,8 @@
         padding: 0.5em 3em;
         border: 1px solid #FFFFFF;
         border-radius: 8px;
+        font-family: Montserrat;
+        font-weight: normal;
         color: #FFFFFF;
     }
 
@@ -73,7 +78,7 @@
         background: url("../assets/images/rectangle-background-terradia.svg");
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
-
+        border-radius: 16px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom;
