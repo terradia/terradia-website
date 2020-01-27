@@ -25,6 +25,7 @@
     }
 
     .btn {
+        outline:none;
         padding: 0.5em 3em;
         border: 1px solid #5CC04A;
         border-radius: 8px;
