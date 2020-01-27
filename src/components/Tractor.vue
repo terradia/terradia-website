@@ -22,6 +22,7 @@
         </div>
         <div class="rectangle">
             <p class="font-st f-size45 color-white" style="text-align: right">Terradia vous permet de<br>consommer local sans le<br>moindre effort.</p>
+            <img src="../assets/images/divider.svg">
         </div>
     </div>
 </template>
@@ -47,11 +48,7 @@
         display: flex;
         width: 100%;
         flex-direction: column;
-        /*border: 5px pink solid;*/
-        background: url("../assets/images/rectangle-background-terradia.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
+        background: linear-gradient(0.25turn, #8FDD3D, #5CC04A);
         z-index: 1;
     }
 
