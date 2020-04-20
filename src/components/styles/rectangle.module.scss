@@ -1,0 +1,19 @@
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: linear-gradient(0.25turn, #8FDD3D, #5CC04A);
+  padding: 1rem;
+}
+
+.divider {
+  align-items: flex-end;
+}
+
+.bottom-phrase {
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 45px;
+  color: white;
+}

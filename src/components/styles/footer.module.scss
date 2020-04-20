@@ -1,0 +1,41 @@
+.container {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.mailto {
+  text-decoration: none;
+  color: #5CC04A;
+}
+
+.wave {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  color: #575757;
+  transform: rotate(180deg);
+  text-align: center;
+  overflow: hidden;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-180deg);
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}

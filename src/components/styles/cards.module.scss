@@ -1,0 +1,79 @@
+.question {
+  color: #575757;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.discover {
+  color: white;
+  text-align: right;
+}
+
+.carto {
+  color: #575757;
+  font-size: 15px;
+  text-align: right;
+}
+
+.right-container {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  //border: 2px mediumpurple solid;
+  width: 100%;
+}
+
+
+.container {
+  padding: 5rem 1.5rem 2.5rem 3rem;
+  background: linear-gradient(0.25turn, #8FDD3D, #5CC04A);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  //border: blue 2px solid;
+}
+
+.slogan {
+  font-size: 40px;
+  color: white;
+}
+
+.cards-container {
+  //border: red 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-title {
+  font-size: 25px;
+  margin-top: 2rem;
+  text-align: left;
+  font-weight: bold;
+  color: #5CC04A;
+}
+
+.explain {
+  color: #BBBBBB;
+}
+
+.card {
+  margin: 0.5rem;
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  width: 35vh;
+}
+
+.img {
+  width: 40px;
+}
