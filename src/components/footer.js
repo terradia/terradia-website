@@ -23,6 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <br/>
+                <Link to={"/mentions-legales"} className={FooterStyle.mailto}>Mentions Légales</Link>
                 <a href="mailto:contact@terradia.eu?Subject=Contactez-nous" className={FooterStyle.mailto}>contact@terradia.eu</a>
                 <span>© Terradia 2020</span>
             </div>

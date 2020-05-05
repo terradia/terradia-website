@@ -77,3 +77,36 @@
 .img {
   width: 40px;
 }
+
+@media (max-width: 600px) {
+  .top-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 985px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1.5rem 2.5rem 1rem;
+    align-items: center;
+  }
+
+  .question {
+    color: #575757;
+    font-weight: bolder;
+    text-align: left;
+  }
+
+  .discover {
+    color: white;
+    text-align: left;
+  }
+
+  .carto {
+    color: #575757;
+    font-size: 15px;
+    text-align: left;
+  }
+}
