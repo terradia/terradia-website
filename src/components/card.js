@@ -7,44 +7,58 @@ import Parle from "../../assets/parlesen-terradia.svg"
 import AOS from "aos";
 import 'aos/dist/aos.css'
 
-const CardInfo = () => {
-    AOS.init();
-  return (
-      <div className={CardStyle.container} >
-        <div className={CardStyle.cardsContainer}>
-            <div className={CardStyle.topCards}>
-            <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
-                <Loupe className={CardStyle.img}/>
-                <h1 className={CardStyle.cardTitle}>Découvre</h1>
-                <p className={CardStyle.explain}>Terradia te permet de découvrir les producteurs locaux qui se trouvent juste à côté de chez toi!</p>
-            </div>
-            <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
-                <Commande className={CardStyle.img}/>
-                <h1 className={CardStyle.cardTitle}>Commande</h1>
-                <p className={CardStyle.explain}>Sur Terradia, tu commandes les produits locaux de ton choix en quelques clics!</p>
+class CardInfo extends React.Component {
+    componentDidMount() {
+        const isBrowser = typeof window !== "undefined";
+        const AOS = isBrowser ? require("aos") : undefined;
 
-            </div>
-            </div>
-            <div className={CardStyle.topCards}>
-                <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
-                    <Consomme className={CardStyle.img}/>
-                    <h1 className={CardStyle.cardTitle}>Consomme</h1>
-                    <p className={CardStyle.explain}>Avec la livraison Terradia dans les heures qui suivent ta commande, tu consommes des produits ultra frais!</p>
+        this.aos = AOS;
+        this.aos.init();
+    }
+
+    render() {
+        return (
+            <div className={CardStyle.container} >
+                <div className={CardStyle.cardsContainer}>
+                    <div className={CardStyle.topCards}>
+                        <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
+                            <Loupe className={CardStyle.img}/>
+                            <h1 className={CardStyle.cardTitle}>Découvre</h1>
+                            <p className={CardStyle.explain}>Terradia te permet de découvrir les producteurs locaux qui se trouvent juste à côté de chez toi!</p>
+                        </div>
+                        <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
+                            <Commande className={CardStyle.img}/>
+                            <h1 className={CardStyle.cardTitle}>Commande</h1>
+                            <p className={CardStyle.explain}>Sur Terradia, tu commandes les produits locaux de ton choix en quelques clics!</p>
+
+                        </div>
+                    </div>
+                    <div className={CardStyle.topCards}>
+                        <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
+                            <Consomme className={CardStyle.img}/>
+                            <h1 className={CardStyle.cardTitle}>Consomme</h1>
+                            <p className={CardStyle.explain}>Avec la livraison Terradia dans les heures qui suivent ta commande, tu consommes des produits ultra frais!</p>
+                        </div>
+                        <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
+                            <Parle className={CardStyle.img}/>
+                            <h1 className={CardStyle.cardTitle}>Parles-en</h1>
+                            <p className={CardStyle.explain}>Parce que notre objectif est de faire redécouvrir le terroire, parles de tes producteurs préférés autour de toi!</p>
+                        </div>
+                    </div>
                 </div>
-                <div className={CardStyle.card} data-aos="flip-up" data-aos-duration="2000">
-                    <Parle className={CardStyle.img}/>
-                    <h1 className={CardStyle.cardTitle}>Parles-en</h1>
-                    <p className={CardStyle.explain}>Parce que notre objectif est de faire redécouvrir le terroire, parles de tes producteurs préférés autour de toi!</p>
+                <div className={CardStyle.rightContainer} data-aos="slide-left" data-aos-duration="2000">
+                    <p className={CardStyle.question}>ENVIE DE CONSOMMER LOCAL?</p>
+                    <h1 className={CardStyle.discover}>Découvre de nouveaux producteurs!</h1>
+                    <p className={CardStyle.carto}>Terradia offre une cartographie des producteurs aux alentours.<br/>Découvre leurs produits, leurs spécialités et<br/>mêmes leurs horaires d'ouverture.</p>
                 </div>
             </div>
-        </div>
-          <div className={CardStyle.rightContainer} data-aos="slide-left" data-aos-duration="2000">
-              <p className={CardStyle.question}>ENVIE DE CONSOMMER LOCAL?</p>
-              <h1 className={CardStyle.discover}>Découvre de nouveaux producteurs!</h1>
-              <p className={CardStyle.carto}>Terradia offre une cartographie des producteurs aux alentours.<br/>Découvre leurs produits, leurs spécialités et<br/>mêmes leurs horaires d'ouverture.</p>
-          </div>
-      </div>
-  )
-};
+        )
+    }
+}
+
+// const CardInfo = () => {
+//     AOS.init();
+//
+// };
 
 export default CardInfo
