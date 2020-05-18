@@ -98,7 +98,9 @@ export default class Navigation extends Component {
 
           {/*<Mobile hide>{this.getNavList({})}</Mobile>*/}
           <ActionsContainer>
-            <button style={{background: '#8FDD3D'}}>Rendez-vous sur notre blog</button>
+            <a href={"https://blog.terradia.eu"} target={"_blank"}>
+              <button style={{background: '#8FDD3D'}}>Rendez-vous sur notre blog</button>
+            </a>
           </ActionsContainer>
         </StyledContainer>
         {/*<Mobile>*/}

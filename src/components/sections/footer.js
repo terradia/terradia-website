@@ -9,22 +9,29 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Ressources</span>
+        <span>Utiles</span>
         <ul>
-          <li>Blog</li>
+          <a href={"https://blog.terradia.eu"} target={"_blank"}>
+            <li>Blog</li>
+          </a>
+          <a href={"https://producteurs.terradia.eu"} target={"_blank"}>
+            <li>Je suis producteur</li>
+          </a>
         </ul>
       </FooterColumn>
       <FooterColumn>
         <span>Entreprise</span>
         <ul>
-          <li>À Propos</li>
+          <a href={"https://blog.terradia.eu/presentation-terradia"} target={"_blank"}>
+            <li>À Propos</li>
+          </a>
         </ul>
       </FooterColumn>
       <FooterColumn>
         <span>Social</span>
         <ul>
           <a href="https://instagram.com/terradiaapp" target="_blank"><li>Instagram</li></a>
-          <a href="https://facebook.com/terradiaapp"><li>Facebook</li></a>
+          <a href="https://facebook.com/terradiaapp" target="_blank"><li>Facebook</li></a>
         </ul>
       </FooterColumn>
       <FooterColumn>
